@@ -21,39 +21,76 @@ This Software is made to manage the partipiants of a camp.
 
 
 ## Taschengeld input
-schroer	Name	Vorname	erster	letzter	TG	Tgkonto	TG Überzah	TG Überwiesen	Tgbar	Werbung	Bargesamt	 Noch in Kasse 
+Name;Vorname;erster;letzter;TG;Tgkonto;TG Überzah;TG Überwiesen;Tgbar;Werbung;Bargesamt; Noch in Kasse 
+
+## mensch
+Name;Vorname;Geburtsdatum;Alter;Geschlecht;Nationalität;Krankenkasse;Anmeldung vom; Versicherter;Bestätigung verschickt am;Erinnerung;Schulform;Corona impfung;Ernährung;  T- Shirt Größe;  L=Leiter M=Mitarbeiter;Besonderes;
+
+PLZ;Stadt;Strasse/Nr.;Anschreiben;Bundesland;Telefon;Fax;Mobil;E-Mail Adresse
+
 
 ## Dateneingabe
-Name	Vorname	Geburtsdatum	Alter	PLZ	Stadt	Strasse/Nr.	Anschreiben	Krankenkasse	Telefon	Fax	Mobil	Von	Bis	Lager-tage	Verlängerung bis	 Verl. Tage 	 Zahlung für Verlängerung 	Code	Tagessatz	Forderung Eigenanteil	Restforderung	1. Rate Konto	2. Rate Konto	3. Rate Konto	1. Rate Bar	2. Rate Bar	3. Rate Bar	Gesamtzahlung	Gesamtforderung	Gesamt noch offen	Taschengeld	TG Konto	TG Bar	TG Werbung	Überzahlt	RÜCK-ZAHLUNG	Gesund	allein	Kleine Gruppe	Medikament	Haftpflicht	Schwimmer	Anmeldung vom	L=Leiter M=Mitarbeiter	Versicherter	Besonderes	Bestätigung verschickt am	Geschlecht	Erinnerung	Schulform	Corona impfung	Ernährung	E-Mail Adresse	Tauchkurs	T-Shirt Größe	Bundesland Nationalität
-
+Code;Tagessatz;Forderung Eigenanteil;Restforderung;1. Rate Konto;2. Rate Konto;3. Rate Konto;1. Rate Bar;2. Rate Bar;3. Rate Bar;Gesamtzahlung;Gesamtforderung;Gesamt noch offen;Taschengeld;TG Konto;TG Bar;TG Werbung;Überzahlt;RÜCK-ZAHLUNG;
+Gesund;allein;Kleine Gruppe;Medikament;Haftpflicht;Schwimmer;Tauchkurs;
 ![Stammblatt](image.png)
 
 ![Abharkliste - 1](image-1.png)
 ![Abharkliste - 2](image-2.png)
 
-## Team 2
-
-Name	Vorname	Geburtsdatum	Alter	PLZ	Stadt	Strasse/Nr.	Anschreiben	Krankenkasse	Telefon 	Fax	Mobil	Von	Bis	Lager-tage	Verlängerung bis	 Verl. Tage 	 Zahlung für Verlängerung 	Bauten und Instandhaltung	Auf-Abbau	Gruppen betreuung	Programmgestaltung	Küche	Einkauf	Organisation und Planung	Leitung, Büro und Abrechnung	Sonstige Arbeiten	Ausbildungen/Seminare				Eigenes Zelt	KFZ dabei	B	BE	C1	C1E	C	CE	Anmeldung vom	L=Leiter M=Mitarbeiter	Versicherter	Besonderes	Bestätigung verschickt am	Geschlecht	Erinnerung	Schulform	Corona impfung	Ernährung	E-Mail Adresse	LEER	LEER	T- Shirt Größe
-
-
 ## Team
 
-Name	Vorname	Geburtsdatum	Alter	PLZ	Stadt	Strasse/Nr.	Anschreiben	Krankenkasse	Telefon 	Fax	Mobil	Von	Bis	Lager-tage	Verlängerung bis	 Verl. Tage 	 Zahlung für Verlängerung 	Bauten und Instandhaltung	Auf-Abbau	Gruppen betreuung	Programmgestaltung	Küche	Einkauf	Organisation und Planung	Leitung, Büro und Abrechnung	Sonstige Arbeiten	Ausbildungen/Seminare				Eigenes Zelt	KFZ dabei	B	BE	C1	C1E	C	CE	Anmeldung vom	L=Leiter M=Mitarbeiter	Versicherter	Besonderes	Bestätigung verschickt am	Geschlecht	Erinnerung	Schulform	Corona impfung	Ernährung	E-Mail Adresse	LEER	LEER	T- Shirt Größe									
+Bauten und Instandhaltung;Auf-Abbau;Gruppen betreuung;Programmgestaltung;Küche;Einkauf;Organisation und Planung;Leitung, Büro und Abrechnung;Sonstige Arbeiten;
+Ausbildungen/Seminare;
+Eigenes Zelt;
+KFZ dabei;B;BE;C1;C1E;C;CE;
 
 ## dropdown
 
-ohne				Grundschule		118-128		ja	normal	männlich
-H2410				Hauptschule		130-140		nein	vegetarisch	weiblich
-Familie10%				Förderschule		142-152			vegan	divers
-Familie3%				Realschule		XS			Halal	
-Familie5%				Gymnasium		S				
-Fr10%+Fam10%				Gesamtschule		M				
-Fr10%+Fam3%				Sekundarschule		L				
-Fr10%+Fam5%				Waldorfschule		XL				
-Früh10%				Sonstige		XXL				
-H2410+Fr10%						XXXL				
-Mitglieder										
-Mitglieder früh										
-Sonderrabatt										
-Mitarbeiter										
-Flüchtling										
+ohne
+H2410
+Familie10%
+Familie3%
+Familie5%
+Fr10%+Fam10%
+Fr10%+Fam3%
+Fr10%+Fam5%
+Früh10%
+H2410+Fr10%
+Mitglieder
+Mitglieder früh
+Sonderrabatt
+Mitarbeiter
+Flüchtling
+
+Grundschule
+Hauptschule
+Förderschule
+Realschule
+Gymnasium
+Gesamtschule
+Sekundarschule
+Waldorfschule
+Sonstige
+
+118-128
+130-140
+142-152
+XS
+S
+M
+L
+XL
+XXL
+XXXL
+
+ja
+nein
+
+normal
+vegetarisch
+vegan
+Halal
+
+männlich
+weiblich
+divers
