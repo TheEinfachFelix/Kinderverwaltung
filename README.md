@@ -20,31 +20,43 @@ This Software is made to manage the partipiants of a camp.
 - confirmation email
 
 
-## Taschengeld input
+## files that need to be printed
+![Stammblatt](image.png)
+![Abharkliste - 1](image-1.png)
+![Abharkliste - 2](image-2.png)
+
+## requierd DB stuff that I extracted from Excel
+### Taschengeld input
 Name;Vorname;erster;letzter;TG;Tgkonto;TG Überzah;TG Überwiesen;Tgbar;Werbung;Bargesamt; Noch in Kasse 
 
-## mensch
+### mensch
 Name;Vorname;Geburtsdatum;Alter;Geschlecht;Nationalität;Krankenkasse;Anmeldung vom; Versicherter;Bestätigung verschickt am;Erinnerung;Schulform;Corona impfung;Ernährung;  T- Shirt Größe;  L=Leiter M=Mitarbeiter;Besonderes;
 
 PLZ;Stadt;Strasse/Nr.;Anschreiben;Bundesland;Telefon;Fax;Mobil;E-Mail Adresse
 
 
-## Dateneingabe
-Code;Tagessatz;Forderung Eigenanteil;Restforderung;1. Rate Konto;2. Rate Konto;3. Rate Konto;1. Rate Bar;2. Rate Bar;3. Rate Bar;Gesamtzahlung;Gesamtforderung;Gesamt noch offen;Taschengeld;TG Konto;TG Bar;TG Werbung;Überzahlt;RÜCK-ZAHLUNG;
-Gesund;allein;Kleine Gruppe;Medikament;Haftpflicht;Schwimmer;Tauchkurs;
-![Stammblatt](image.png)
+### Dateneingabe
+Code;
 
-![Abharkliste - 1](image-1.png)
-![Abharkliste - 2](image-2.png)
+Tagessatz;Forderung Eigenanteil;Restforderung;1. Rate Konto;2. Rate Konto;3. Rate Konto;1. Rate Bar;2. Rate Bar;3. Rate Bar;Gesamtzahlung;Gesamtforderung;Gesamt noch offen;Taschengeld;TG Konto;TG Bar;TG Werbung;Überzahlt;RÜCK-ZAHLUNG;
 
-## Team
+Gesund;Medikament;Haftpflicht;
+
+allein;Kleine Gruppe;Schwimmer;Tauchkurs;
+
+
+
+### Team
 
 Bauten und Instandhaltung;Auf-Abbau;Gruppen betreuung;Programmgestaltung;Küche;Einkauf;Organisation und Planung;Leitung, Büro und Abrechnung;Sonstige Arbeiten;
+
 Ausbildungen/Seminare;
+
 Eigenes Zelt;
+
 KFZ dabei;B;BE;C1;C1E;C;CE;
 
-## dropdown
+### dropdown
 
 ohne
 H2410
